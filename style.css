@@ -1,0 +1,30 @@
+#out {
+    margin-top: 30px;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+h1 {
+    font-size: 50px;
+}
+.row{
+    margin: 0 auto;
+    max-width: 440px;
+    padding: 20px;
+    text-align: left;
+}
+.form-control {
+    width: 430px;
+}
+.checkbox {
+    margin: 10px;
+}
+.btn-default {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row1">
+            <h1 class="text-center">Password Generator</h1>
+        </div>
+        <div class="row">
+            <form>
+                <div class="form-grop">
+                    <label for="param-1">Длинна строки(<span id="password-length">10</span>)</label>
+                    <input type="range" class="form-control" id="param-1" value="10" max="50">
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="param-2" checked> Цифры
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="param-3" checked> Строчные буквы
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="param-4"> Прописные буквы
+                    </label>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" id="param-5"> Спецсимволы
+                    </label>
+                </div>
+
+                <button type="button" class="btn btn-default" id="gererator">Generator</button>
+            </form>
+        </div>
+        <div class="row">
+            <div id="out">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
